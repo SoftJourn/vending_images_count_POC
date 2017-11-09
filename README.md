@@ -9,13 +9,17 @@ The challenge is:
 2. Program should run in the cloud(eg. two images input) or Raspberry Pi
 3. Program will be able to tell the number of item in the tray.
 
-license.txt - MIT license
+LICENSE.txt is a MIT license
 ***************************************************************************************
 RUN (usage):
 ./compare2im.sh -b before.jpg -a after.jpg
 
 Dependencies:
+
 sudo apt-get install imagemagick python-opencv
+
 pip install scikit-image
+
 pip install imutils
+
 pip install numpy
